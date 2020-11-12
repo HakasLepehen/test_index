@@ -1,33 +1,45 @@
 .container {
     margin: 0 auto;
 }
+
 /*Карусель*/
 div.carousel-inner {
     height: 32vh;
     /*background-color: aliceblue;*/
 }
+
 .d-block.w-100 {
     height: 25vh;
     object-fit: cover;
 }
+
 .carousel-indicators {
-    margin-bottom: 0;
+    margin: 0;
 }
 
-li.carousel-indicator.active{
+li.carousel-indicator.active {
     background-color: black;
 }
-li.carousel-indicator{
+
+li.carousel-indicator {
     background-color: deepskyblue;
 }
-.carousel-control-prev, .carousel-control-next {
-    width: 10vh;
-}
+
 .about-us {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
     text-align: center;
 }
+
 .about-us-text {
     margin-top: 10px;
     padding: 0 50px 0 50px;
     text-align: justify;
+}
+
+.card.col-sm-12.col-md-4.col-lg-4 {
+    margin-top: 10px;
+    height: 300px;
+    background-color: blueviolet;
 }
