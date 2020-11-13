@@ -48,6 +48,7 @@ div.carousel-inner, .carousel-item.active {
     margin-top: 20px;
     height: 310px;
     width: 350px;
+    border-radius: 5% 5% 5% 5%;
     /* background-color: blueviolet; */
     /* align-items: flex-end; */
 }
@@ -55,6 +56,8 @@ div.carousel-inner, .carousel-item.active {
     /* height: 400px; */
     /* width: 200px; */
     background-color: aqua;
+    border-radius: 5% 5% 0 0;
+    
 }
 .card-body {
     display: flex;
