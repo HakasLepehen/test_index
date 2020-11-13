@@ -1,45 +1,72 @@
+@font-face {
+    font-family: 'Roboto bold';
+    src: url('/src/fonts/roboto/Roboto-Bold.ttf');
+    font-weight: 600;
+}
+
 .container {
     margin: 0 auto;
 }
 
 /*Карусель*/
-div.carousel-inner {
-    height: 32vh;
+div.carousel-inner, .carousel-item.active {
+    height: 49vh;
     /*background-color: aliceblue;*/
 }
 
 .d-block.w-100 {
-    height: 25vh;
+    height: 39vh;
     object-fit: cover;
 }
-
-.carousel-indicators {
-    margin: 0;
-}
-
-li.carousel-indicator.active {
-    background-color: black;
-}
-
-li.carousel-indicator {
-    background-color: deepskyblue;
+.carousel-item-title.col-12 {
+    font-family: 'Roboto bold', sans-serif;
+    font-size: 1.5em;
+    display: flex;
+    /* background-color: aqua; */
 }
 
 .about-us {
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*justify-content: center;*/
     text-align: center;
 }
 
 .about-us-text {
     margin-top: 10px;
-    padding: 0 50px 0 50px;
-    text-align: justify;
+    padding: 0 1em 0 1em;
+    text-align: center;
 }
 
-.card.col-sm-12.col-md-4.col-lg-4 {
-    margin-top: 10px;
+/* .card.col-sm-12.col-md-4.col-lg-4 {
+    margin-top: 20px;
     height: 300px;
     background-color: blueviolet;
+} */
+.row {
+    justify-content: space-around;
+}
+.card{
+    box-sizing: border-box;
+    margin-top: 20px;
+    height: 310px;
+    width: 350px;
+    /* background-color: blueviolet; */
+    /* align-items: flex-end; */
+}
+.card .card-img-top {
+    /* height: 400px; */
+    /* width: 200px; */
+    background-color: aqua;
+}
+.card-body {
+    display: flex;
+    /* position: relative;
+    box-sizing: inherit; */
+    
+    align-items: center;
+    padding: 0;
+    /* background-color: black; */
+}
+.card-text {
+    justify-content: center;
+    padding-left: 10px;
+    color: black;
 }

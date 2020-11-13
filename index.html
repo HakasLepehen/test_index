@@ -1,118 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>test_index</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="src/css/style.css">
 </head>
+
 <body>
-<!--Навигационное меню-->
-<div class="container">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">
-            <img src="src/img/navLogo.png">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    <!--Навигационное меню-->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="src/img/navLogo.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Наши контакты
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Как с нами связаться?</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Где нас найти?</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Наши контакты
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Как с нами связаться?</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Где нас найти?</a>
 
-                    </div>
-                </li>
-            </ul>
+                        </div>
+                    </li>
+                </ul>
 
-        </div>
-    </nav>
-</div>
-
-<!--Карусель-->
-<div class="section">
-    <div class="container">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
-
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <a href=""></a>
-                    <img class="d-block w-100" src="src/img/banner/controlFuelBanner.jpg" alt="First slide">
-                    <div class="carousel-item-title col-12">
-                        <h4>Контроль техники и система учета полей</h4>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="src/img/banner/podrulka.jpg" alt="Second slide">
-                    <div class="carousel-item-title col-12">
-                        <h4>Системы параллельного вождения, автопилоты и подруливающие устройства</h4>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="src/img/banner/atollTaho.png" alt="Third slide">
-                    <div class="carousel-item-title col-12">
-                        <h4>Монтаж и обслуживание тахографов в Омске</h4>
-                    </div>
-                </div>
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0"
-                        class="carousel-indicator active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1" class="carousel-indicator"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2" class="carousel-indicator"></li>
-                </ol>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-            <hr>
-        </div>
+        </nav>
     </div>
-</div>
-<div class="section">
-    <div class="container">
 
-        <div class="about-us">
-            <span>КРАТКО О НАС</span>
-        </div>
-        <div class="about-us-text">
-            <span>Сонар Транссофт - инженерный технический центр по оснащению коммерческой техники и стационарных объектов специализированным оборудованием</span>
-        </div>
+    <!--Карусель-->
+    <div class="section">
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
 
-        <div class="services">
-            <div class="row">
-                <div class="card col-sm-12 col-md-4 col-lg-4"></div>
-                <div class="card col-sm-12 col-md-4 col-lg-4"></div>
-                <div class="card col-sm-12 col-md-4 col-lg-4"></div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="src/img/banner/controlFuelBanner.jpg" alt="First slide">
+                        <div class="carousel-item-title col-12">
+                            Решения для агросектора
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="src/img/banner/video.png" alt="Second slide">
+                        <div class="carousel-item-title col-12">
+                            Видеонаблюдение на транспорте
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="src/img/banner/atollTaho.png" alt="Third slide">
+                        <div class="carousel-item-title col-12">
+                            Монтаж и обслуживание тахографов
+                        </div>
+                    </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                <hr>
             </div>
         </div>
     </div>
-</div>
+    <div class="section">
+        <div class="container">
+
+            <div class="about-us">
+                <span>КРАТКО О НАС</span>
+            </div>
+            <div class="about-us-text">
+                <span>Сонар Транссофт - инженерный технический центр по оснащению коммерческой техники и стационарных
+                    объектов специализированным оборудованием</span>
+            </div>
+
+            <div class="services">
+                <div class="row">
+                    <div class="card">
+                        <img src="/src/img/cards/agro.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <span class="card-text">Глонасс мониторинг транспорта. Контроль топлива. Уникальные программные решения от 250 руб/мес.</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/src/img/cards/taho.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <span class="card-text">Установка тахографов. Качественный монтаж. Калькуляция монтажа по телефону у менеджеров.</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/src/img/cards/Agrotechnology.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <span class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card">
+                        <img src="/src/img/cards/Agrotechnology.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <span class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/src/img/cards/taho.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <span class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/src/img/cards/Agrotechnology.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <span class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
